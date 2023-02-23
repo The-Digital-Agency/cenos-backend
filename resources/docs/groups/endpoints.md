@@ -1,0 +1,19773 @@
+# Endpoints
+
+
+## Authenticate users
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/login" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/login"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-login" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-login"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-login"></code></pre>
+</div>
+<div id="execution-error-POSTapi-login" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-login"></code></pre>
+</div>
+<form id="form-POSTapi-login" data-method="POST" data-path="api/login" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-login', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-login" onclick="tryItOut('POSTapi-login');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-login" onclick="cancelTryOut('POSTapi-login');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-login" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/login</code></b>
+</p>
+</form>
+
+
+## Authenticate admin users
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/loginAdmin" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/loginAdmin"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-loginAdmin" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-loginAdmin"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-loginAdmin"></code></pre>
+</div>
+<div id="execution-error-POSTapi-loginAdmin" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-loginAdmin"></code></pre>
+</div>
+<form id="form-POSTapi-loginAdmin" data-method="POST" data-path="api/loginAdmin" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-loginAdmin', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-loginAdmin" onclick="tryItOut('POSTapi-loginAdmin');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-loginAdmin" onclick="cancelTryOut('POSTapi-loginAdmin');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-loginAdmin" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/loginAdmin</code></b>
+</p>
+</form>
+
+
+## Register users
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/register" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/register"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-register" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-register"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-register"></code></pre>
+</div>
+<div id="execution-error-POSTapi-register" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-register"></code></pre>
+</div>
+<form id="form-POSTapi-register" data-method="POST" data-path="api/register" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-register', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-register" onclick="tryItOut('POSTapi-register');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-register" onclick="cancelTryOut('POSTapi-register');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-register" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/register</code></b>
+</p>
+</form>
+
+
+## Register users unknowing
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/register-unknowing" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/register-unknowing"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-register-unknowing" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-register-unknowing"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-register-unknowing"></code></pre>
+</div>
+<div id="execution-error-POSTapi-register-unknowing" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-register-unknowing"></code></pre>
+</div>
+<form id="form-POSTapi-register-unknowing" data-method="POST" data-path="api/register-unknowing" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-register-unknowing', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-register-unknowing" onclick="tryItOut('POSTapi-register-unknowing');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-register-unknowing" onclick="cancelTryOut('POSTapi-register-unknowing');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-register-unknowing" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/register-unknowing</code></b>
+</p>
+</form>
+
+
+## Confirms Token
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/reset-password/qui" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/reset-password/qui"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-reset-password--token-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-reset-password--token-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-reset-password--token-"></code></pre>
+</div>
+<div id="execution-error-GETapi-reset-password--token-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-reset-password--token-"></code></pre>
+</div>
+<form id="form-GETapi-reset-password--token-" data-method="GET" data-path="api/reset-password/{token}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-reset-password--token-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-reset-password--token-" onclick="tryItOut('GETapi-reset-password--token-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-reset-password--token-" onclick="cancelTryOut('GETapi-reset-password--token-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-reset-password--token-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/reset-password/{token}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>token</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="token" data-endpoint="GETapi-reset-password--token-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Resets Password
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/reset-password" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/reset-password"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-reset-password" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-reset-password"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-reset-password"></code></pre>
+</div>
+<div id="execution-error-POSTapi-reset-password" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-reset-password"></code></pre>
+</div>
+<form id="form-POSTapi-reset-password" data-method="POST" data-path="api/reset-password" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-reset-password', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-reset-password" onclick="tryItOut('POSTapi-reset-password');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-reset-password" onclick="cancelTryOut('POSTapi-reset-password');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-reset-password" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/reset-password</code></b>
+</p>
+</form>
+
+
+## Send Reset Token
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/send-reset-token" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/send-reset-token"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-send-reset-token" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-send-reset-token"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-send-reset-token"></code></pre>
+</div>
+<div id="execution-error-POSTapi-send-reset-token" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-send-reset-token"></code></pre>
+</div>
+<form id="form-POSTapi-send-reset-token" data-method="POST" data-path="api/send-reset-token" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-send-reset-token', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-send-reset-token" onclick="tryItOut('POSTapi-send-reset-token');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-send-reset-token" onclick="cancelTryOut('POSTapi-send-reset-token');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-send-reset-token" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/send-reset-token</code></b>
+</p>
+</form>
+
+
+## Generate a new token for user
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/refresh-token" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/refresh-token"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-refresh-token" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-refresh-token"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-refresh-token"></code></pre>
+</div>
+<div id="execution-error-GETapi-refresh-token" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-refresh-token"></code></pre>
+</div>
+<form id="form-GETapi-refresh-token" data-method="GET" data-path="api/refresh-token" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-refresh-token', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-refresh-token" onclick="tryItOut('GETapi-refresh-token');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-refresh-token" onclick="cancelTryOut('GETapi-refresh-token');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-refresh-token" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/refresh-token</code></b>
+</p>
+</form>
+
+
+## Blacklist token
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/logout" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/logout"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-logout" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-logout"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-logout"></code></pre>
+</div>
+<div id="execution-error-POSTapi-logout" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-logout"></code></pre>
+</div>
+<form id="form-POSTapi-logout" data-method="POST" data-path="api/logout" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-logout', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-logout" onclick="tryItOut('POSTapi-logout');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-logout" onclick="cancelTryOut('POSTapi-logout');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-logout" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/logout</code></b>
+</p>
+</form>
+
+
+## Update user
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/update-user" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/update-user"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-update-user" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-update-user"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-update-user"></code></pre>
+</div>
+<div id="execution-error-POSTapi-update-user" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-update-user"></code></pre>
+</div>
+<form id="form-POSTapi-update-user" data-method="POST" data-path="api/update-user" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-update-user', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-update-user" onclick="tryItOut('POSTapi-update-user');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-update-user" onclick="cancelTryOut('POSTapi-update-user');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-update-user" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/update-user</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/users" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-users" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-users"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-users"></code></pre>
+</div>
+<div id="execution-error-GETapi-users" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-users"></code></pre>
+</div>
+<form id="form-GETapi-users" data-method="GET" data-path="api/users" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-users', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-users" onclick="tryItOut('GETapi-users');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-users" onclick="cancelTryOut('GETapi-users');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-users" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/users</code></b>
+</p>
+</form>
+
+
+## Display the specified resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/users/quibusdam" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/quibusdam"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (404):
+
+```json
+{
+    "message": "",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/AbstractRouteCollection.php",
+    "line": 43,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/RouteCollection.php",
+            "line": 162,
+            "function": "handleMatchedRoute",
+            "class": "Illuminate\\Routing\\AbstractRouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 647,
+            "function": "match",
+            "class": "Illuminate\\Routing\\RouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "findRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-users--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-users--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-users--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-users--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-users--id-"></code></pre>
+</div>
+<form id="form-GETapi-users--id-" data-method="GET" data-path="api/users/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-users--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-users--id-" onclick="tryItOut('GETapi-users--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-users--id-" onclick="cancelTryOut('GETapi-users--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-users--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/users/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-users--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/users/{id}/orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/users/quaerat/orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/quaerat/orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (404):
+
+```json
+{
+    "message": "",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/AbstractRouteCollection.php",
+    "line": 43,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/RouteCollection.php",
+            "line": 162,
+            "function": "handleMatchedRoute",
+            "class": "Illuminate\\Routing\\AbstractRouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 647,
+            "function": "match",
+            "class": "Illuminate\\Routing\\RouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "findRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-users--id--orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-users--id--orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-users--id--orders"></code></pre>
+</div>
+<div id="execution-error-GETapi-users--id--orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-users--id--orders"></code></pre>
+</div>
+<form id="form-GETapi-users--id--orders" data-method="GET" data-path="api/users/{id}/orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-users--id--orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-users--id--orders" onclick="tryItOut('GETapi-users--id--orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-users--id--orders" onclick="cancelTryOut('GETapi-users--id--orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-users--id--orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/users/{id}/orders</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-users--id--orders" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/users/orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/users/orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-users-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-users-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-users-orders"></code></pre>
+</div>
+<div id="execution-error-GETapi-users-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-users-orders"></code></pre>
+</div>
+<form id="form-GETapi-users-orders" data-method="GET" data-path="api/users/orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-users-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-users-orders" onclick="tryItOut('GETapi-users-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-users-orders" onclick="cancelTryOut('GETapi-users-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-users-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/users/orders</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/users" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-users" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-users"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-users"></code></pre>
+</div>
+<div id="execution-error-POSTapi-users" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-users"></code></pre>
+</div>
+<form id="form-POSTapi-users" data-method="POST" data-path="api/users" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-users', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-users" onclick="tryItOut('POSTapi-users');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-users" onclick="cancelTryOut('POSTapi-users');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-users" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/users</code></b>
+</p>
+</form>
+
+
+## Update admin user
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/users/updateAdmin" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/updateAdmin"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-users-updateAdmin" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-users-updateAdmin"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-users-updateAdmin"></code></pre>
+</div>
+<div id="execution-error-POSTapi-users-updateAdmin" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-users-updateAdmin"></code></pre>
+</div>
+<form id="form-POSTapi-users-updateAdmin" data-method="POST" data-path="api/users/updateAdmin" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-users-updateAdmin', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-users-updateAdmin" onclick="tryItOut('POSTapi-users-updateAdmin');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-users-updateAdmin" onclick="cancelTryOut('POSTapi-users-updateAdmin');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-users-updateAdmin" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/users/updateAdmin</code></b>
+</p>
+</form>
+
+
+## api/users/updatePassword
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/users/updatePassword" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/updatePassword"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-users-updatePassword" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-users-updatePassword"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-users-updatePassword"></code></pre>
+</div>
+<div id="execution-error-POSTapi-users-updatePassword" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-users-updatePassword"></code></pre>
+</div>
+<form id="form-POSTapi-users-updatePassword" data-method="POST" data-path="api/users/updatePassword" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-users-updatePassword', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-users-updatePassword" onclick="tryItOut('POSTapi-users-updatePassword');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-users-updatePassword" onclick="cancelTryOut('POSTapi-users-updatePassword');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-users-updatePassword" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/users/updatePassword</code></b>
+</p>
+</form>
+
+
+## Update the specified resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X PUT \
+    "http://smallchops.test/api/users/a" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/a"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "PUT",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-PUTapi-users--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-PUTapi-users--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-users--id-"></code></pre>
+</div>
+<div id="execution-error-PUTapi-users--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-users--id-"></code></pre>
+</div>
+<form id="form-PUTapi-users--id-" data-method="PUT" data-path="api/users/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('PUTapi-users--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-PUTapi-users--id-" onclick="tryItOut('PUTapi-users--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-PUTapi-users--id-" onclick="cancelTryOut('PUTapi-users--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-PUTapi-users--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-darkblue">PUT</small>
+ <b><code>api/users/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="PUTapi-users--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Remove the specified resource from storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/users/cumque" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/users/cumque"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-users--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-users--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-users--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-users--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-users--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-users--id-" data-method="DELETE" data-path="api/users/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-users--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-users--id-" onclick="tryItOut('DELETEapi-users--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-users--id-" onclick="cancelTryOut('DELETEapi-users--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-users--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/users/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-users--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/cash-request" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/cash-request"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-cash-request" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-cash-request"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-cash-request"></code></pre>
+</div>
+<div id="execution-error-POSTapi-cash-request" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-cash-request"></code></pre>
+</div>
+<form id="form-POSTapi-cash-request" data-method="POST" data-path="api/cash-request" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-cash-request', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-cash-request" onclick="tryItOut('POSTapi-cash-request');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-cash-request" onclick="cancelTryOut('POSTapi-cash-request');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-cash-request" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/cash-request</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/cash-request" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/cash-request"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-cash-request" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-cash-request"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-cash-request"></code></pre>
+</div>
+<div id="execution-error-GETapi-cash-request" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-cash-request"></code></pre>
+</div>
+<form id="form-GETapi-cash-request" data-method="GET" data-path="api/cash-request" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-cash-request', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-cash-request" onclick="tryItOut('GETapi-cash-request');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-cash-request" onclick="cancelTryOut('GETapi-cash-request');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-cash-request" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/cash-request</code></b>
+</p>
+</form>
+
+
+## api/cash-request/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X PUT \
+    "http://smallchops.test/api/cash-request/sed" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/cash-request/sed"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "PUT",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-PUTapi-cash-request--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-PUTapi-cash-request--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-cash-request--id-"></code></pre>
+</div>
+<div id="execution-error-PUTapi-cash-request--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-cash-request--id-"></code></pre>
+</div>
+<form id="form-PUTapi-cash-request--id-" data-method="PUT" data-path="api/cash-request/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('PUTapi-cash-request--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-PUTapi-cash-request--id-" onclick="tryItOut('PUTapi-cash-request--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-PUTapi-cash-request--id-" onclick="cancelTryOut('PUTapi-cash-request--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-PUTapi-cash-request--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-darkblue">PUT</small>
+ <b><code>api/cash-request/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="PUTapi-cash-request--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Change the status of the cash request
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/cash-request/changeStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/cash-request/changeStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-cash-request-changeStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-cash-request-changeStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-cash-request-changeStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-cash-request-changeStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-cash-request-changeStatus"></code></pre>
+</div>
+<form id="form-POSTapi-cash-request-changeStatus" data-method="POST" data-path="api/cash-request/changeStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-cash-request-changeStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-cash-request-changeStatus" onclick="tryItOut('POSTapi-cash-request-changeStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-cash-request-changeStatus" onclick="cancelTryOut('POSTapi-cash-request-changeStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-cash-request-changeStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/cash-request/changeStatus</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/locations" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/locations"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-locations" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-locations"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-locations"></code></pre>
+</div>
+<div id="execution-error-GETapi-locations" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-locations"></code></pre>
+</div>
+<form id="form-GETapi-locations" data-method="GET" data-path="api/locations" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-locations', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-locations" onclick="tryItOut('GETapi-locations');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-locations" onclick="cancelTryOut('GETapi-locations');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-locations" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/locations</code></b>
+</p>
+</form>
+
+
+## Display the specified resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/locations/ipsam" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/locations/ipsam"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-locations--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-locations--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-locations--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-locations--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-locations--id-"></code></pre>
+</div>
+<form id="form-GETapi-locations--id-" data-method="GET" data-path="api/locations/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-locations--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-locations--id-" onclick="tryItOut('GETapi-locations--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-locations--id-" onclick="cancelTryOut('GETapi-locations--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-locations--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/locations/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-locations--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Get all orders to a specific location
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/locations/maiores/order" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/locations/maiores/order"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-locations--id--order" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-locations--id--order"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-locations--id--order"></code></pre>
+</div>
+<div id="execution-error-GETapi-locations--id--order" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-locations--id--order"></code></pre>
+</div>
+<form id="form-GETapi-locations--id--order" data-method="GET" data-path="api/locations/{id}/order" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-locations--id--order', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-locations--id--order" onclick="tryItOut('GETapi-locations--id--order');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-locations--id--order" onclick="cancelTryOut('GETapi-locations--id--order');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-locations--id--order" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/locations/{id}/order</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-locations--id--order" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/locations" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/locations"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-locations" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-locations"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-locations"></code></pre>
+</div>
+<div id="execution-error-POSTapi-locations" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-locations"></code></pre>
+</div>
+<form id="form-POSTapi-locations" data-method="POST" data-path="api/locations" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-locations', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-locations" onclick="tryItOut('POSTapi-locations');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-locations" onclick="cancelTryOut('POSTapi-locations');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-locations" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/locations</code></b>
+</p>
+</form>
+
+
+## Update the specified resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/locations/update" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/locations/update"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-locations-update" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-locations-update"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-locations-update"></code></pre>
+</div>
+<div id="execution-error-POSTapi-locations-update" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-locations-update"></code></pre>
+</div>
+<form id="form-POSTapi-locations-update" data-method="POST" data-path="api/locations/update" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-locations-update', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-locations-update" onclick="tryItOut('POSTapi-locations-update');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-locations-update" onclick="cancelTryOut('POSTapi-locations-update');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-locations-update" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/locations/update</code></b>
+</p>
+</form>
+
+
+## Remove the specified resource from storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/locations/quia" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/locations/quia"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-locations--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-locations--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-locations--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-locations--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-locations--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-locations--id-" data-method="DELETE" data-path="api/locations/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-locations--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-locations--id-" onclick="tryItOut('DELETEapi-locations--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-locations--id-" onclick="cancelTryOut('DELETEapi-locations--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-locations--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/locations/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-locations--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/delivery-windows" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/delivery-windows"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-delivery-windows" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-delivery-windows"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-delivery-windows"></code></pre>
+</div>
+<div id="execution-error-POSTapi-delivery-windows" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-delivery-windows"></code></pre>
+</div>
+<form id="form-POSTapi-delivery-windows" data-method="POST" data-path="api/delivery-windows" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-delivery-windows', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-delivery-windows" onclick="tryItOut('POSTapi-delivery-windows');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-delivery-windows" onclick="cancelTryOut('POSTapi-delivery-windows');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-delivery-windows" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/delivery-windows</code></b>
+</p>
+</form>
+
+
+## Get all delivery dates
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/delivery-windows/all" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/delivery-windows/all"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-delivery-windows-all" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-delivery-windows-all"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-delivery-windows-all"></code></pre>
+</div>
+<div id="execution-error-GETapi-delivery-windows-all" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-delivery-windows-all"></code></pre>
+</div>
+<form id="form-GETapi-delivery-windows-all" data-method="GET" data-path="api/delivery-windows/all" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-delivery-windows-all', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-delivery-windows-all" onclick="tryItOut('GETapi-delivery-windows-all');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-delivery-windows-all" onclick="cancelTryOut('GETapi-delivery-windows-all');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-delivery-windows-all" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/delivery-windows/all</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/delivery-windows/quae" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/delivery-windows/quae"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-delivery-windows--date--" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-delivery-windows--date--"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-delivery-windows--date--"></code></pre>
+</div>
+<div id="execution-error-GETapi-delivery-windows--date--" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-delivery-windows--date--"></code></pre>
+</div>
+<form id="form-GETapi-delivery-windows--date--" data-method="GET" data-path="api/delivery-windows/{date?}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-delivery-windows--date--', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-delivery-windows--date--" onclick="tryItOut('GETapi-delivery-windows--date--');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-delivery-windows--date--" onclick="cancelTryOut('GETapi-delivery-windows--date--');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-delivery-windows--date--" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/delivery-windows/{date?}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>date</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+<input type="text" name="date" data-endpoint="GETapi-delivery-windows--date--" data-component="url"  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Change the delivery window status
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/delivery-windows/changeDeliveryWindowStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/delivery-windows/changeDeliveryWindowStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-delivery-windows-changeDeliveryWindowStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-delivery-windows-changeDeliveryWindowStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-delivery-windows-changeDeliveryWindowStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-delivery-windows-changeDeliveryWindowStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-delivery-windows-changeDeliveryWindowStatus"></code></pre>
+</div>
+<form id="form-POSTapi-delivery-windows-changeDeliveryWindowStatus" data-method="POST" data-path="api/delivery-windows/changeDeliveryWindowStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-delivery-windows-changeDeliveryWindowStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-delivery-windows-changeDeliveryWindowStatus" onclick="tryItOut('POSTapi-delivery-windows-changeDeliveryWindowStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-delivery-windows-changeDeliveryWindowStatus" onclick="cancelTryOut('POSTapi-delivery-windows-changeDeliveryWindowStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-delivery-windows-changeDeliveryWindowStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/delivery-windows/changeDeliveryWindowStatus</code></b>
+</p>
+</form>
+
+
+## Get everyday delivery window date
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/delivery-windows/regularDeliveryDate" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/delivery-windows/regularDeliveryDate"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-delivery-windows-regularDeliveryDate" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-delivery-windows-regularDeliveryDate"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-delivery-windows-regularDeliveryDate"></code></pre>
+</div>
+<div id="execution-error-POSTapi-delivery-windows-regularDeliveryDate" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-delivery-windows-regularDeliveryDate"></code></pre>
+</div>
+<form id="form-POSTapi-delivery-windows-regularDeliveryDate" data-method="POST" data-path="api/delivery-windows/regularDeliveryDate" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-delivery-windows-regularDeliveryDate', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-delivery-windows-regularDeliveryDate" onclick="tryItOut('POSTapi-delivery-windows-regularDeliveryDate');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-delivery-windows-regularDeliveryDate" onclick="cancelTryOut('POSTapi-delivery-windows-regularDeliveryDate');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-delivery-windows-regularDeliveryDate" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/delivery-windows/regularDeliveryDate</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/companies" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/companies"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-companies" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-companies"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-companies"></code></pre>
+</div>
+<div id="execution-error-GETapi-companies" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-companies"></code></pre>
+</div>
+<form id="form-GETapi-companies" data-method="GET" data-path="api/companies" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-companies', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-companies" onclick="tryItOut('GETapi-companies');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-companies" onclick="cancelTryOut('GETapi-companies');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-companies" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/companies</code></b>
+</p>
+</form>
+
+
+## Display the specified resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/companies/sed" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/companies/sed"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-companies--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-companies--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-companies--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-companies--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-companies--id-"></code></pre>
+</div>
+<form id="form-GETapi-companies--id-" data-method="GET" data-path="api/companies/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-companies--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-companies--id-" onclick="tryItOut('GETapi-companies--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-companies--id-" onclick="cancelTryOut('GETapi-companies--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-companies--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/companies/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-companies--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Return all orders fulfilled by delivery company
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/companies/molestiae/order" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/companies/molestiae/order"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-companies--id--order" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-companies--id--order"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-companies--id--order"></code></pre>
+</div>
+<div id="execution-error-GETapi-companies--id--order" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-companies--id--order"></code></pre>
+</div>
+<form id="form-GETapi-companies--id--order" data-method="GET" data-path="api/companies/{id}/order" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-companies--id--order', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-companies--id--order" onclick="tryItOut('GETapi-companies--id--order');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-companies--id--order" onclick="cancelTryOut('GETapi-companies--id--order');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-companies--id--order" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/companies/{id}/order</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-companies--id--order" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/companies" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/companies"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-companies" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-companies"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-companies"></code></pre>
+</div>
+<div id="execution-error-POSTapi-companies" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-companies"></code></pre>
+</div>
+<form id="form-POSTapi-companies" data-method="POST" data-path="api/companies" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-companies', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-companies" onclick="tryItOut('POSTapi-companies');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-companies" onclick="cancelTryOut('POSTapi-companies');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-companies" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/companies</code></b>
+</p>
+</form>
+
+
+## Update the specified resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/companies/update" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/companies/update"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-companies-update" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-companies-update"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-companies-update"></code></pre>
+</div>
+<div id="execution-error-POSTapi-companies-update" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-companies-update"></code></pre>
+</div>
+<form id="form-POSTapi-companies-update" data-method="POST" data-path="api/companies/update" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-companies-update', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-companies-update" onclick="tryItOut('POSTapi-companies-update');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-companies-update" onclick="cancelTryOut('POSTapi-companies-update');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-companies-update" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/companies/update</code></b>
+</p>
+</form>
+
+
+## Remove the specified resource from storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/companies/rerum" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/companies/rerum"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-companies--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-companies--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-companies--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-companies--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-companies--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-companies--id-" data-method="DELETE" data-path="api/companies/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-companies--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-companies--id-" onclick="tryItOut('DELETEapi-companies--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-companies--id-" onclick="cancelTryOut('DELETEapi-companies--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-companies--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/companies/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-companies--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/packages
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/packages" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-packages" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-packages"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-packages"></code></pre>
+</div>
+<div id="execution-error-GETapi-packages" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-packages"></code></pre>
+</div>
+<form id="form-GETapi-packages" data-method="GET" data-path="api/packages" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-packages', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-packages" onclick="tryItOut('GETapi-packages');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-packages" onclick="cancelTryOut('GETapi-packages');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-packages" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/packages</code></b>
+</p>
+</form>
+
+
+## Fetch All Packages Regardless of the Type
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/packages/all" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages/all"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-packages-all" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-packages-all"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-packages-all"></code></pre>
+</div>
+<div id="execution-error-GETapi-packages-all" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-packages-all"></code></pre>
+</div>
+<form id="form-GETapi-packages-all" data-method="GET" data-path="api/packages/all" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-packages-all', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-packages-all" onclick="tryItOut('GETapi-packages-all');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-packages-all" onclick="cancelTryOut('GETapi-packages-all');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-packages-all" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/packages/all</code></b>
+</p>
+</form>
+
+
+## api/packages/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/packages/aut" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages/aut"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (404):
+
+```json
+{
+    "message": "",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/AbstractRouteCollection.php",
+    "line": 43,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/RouteCollection.php",
+            "line": 162,
+            "function": "handleMatchedRoute",
+            "class": "Illuminate\\Routing\\AbstractRouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 647,
+            "function": "match",
+            "class": "Illuminate\\Routing\\RouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "findRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-packages--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-packages--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-packages--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-packages--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-packages--id-"></code></pre>
+</div>
+<form id="form-GETapi-packages--id-" data-method="GET" data-path="api/packages/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-packages--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-packages--id-" onclick="tryItOut('GETapi-packages--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-packages--id-" onclick="cancelTryOut('GETapi-packages--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-packages--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/packages/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-packages--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/packages
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/packages" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-packages" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-packages"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-packages"></code></pre>
+</div>
+<div id="execution-error-POSTapi-packages" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-packages"></code></pre>
+</div>
+<form id="form-POSTapi-packages" data-method="POST" data-path="api/packages" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-packages', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-packages" onclick="tryItOut('POSTapi-packages');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-packages" onclick="cancelTryOut('POSTapi-packages');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-packages" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/packages</code></b>
+</p>
+</form>
+
+
+## Upload product image to Cloudinary
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/packages/uploadImage" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages/uploadImage"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-packages-uploadImage" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-packages-uploadImage"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-packages-uploadImage"></code></pre>
+</div>
+<div id="execution-error-POSTapi-packages-uploadImage" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-packages-uploadImage"></code></pre>
+</div>
+<form id="form-POSTapi-packages-uploadImage" data-method="POST" data-path="api/packages/uploadImage" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-packages-uploadImage', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-packages-uploadImage" onclick="tryItOut('POSTapi-packages-uploadImage');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-packages-uploadImage" onclick="cancelTryOut('POSTapi-packages-uploadImage');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-packages-uploadImage" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/packages/uploadImage</code></b>
+</p>
+</form>
+
+
+## Update Status
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/packages/updateStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages/updateStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-packages-updateStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-packages-updateStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-packages-updateStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-packages-updateStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-packages-updateStatus"></code></pre>
+</div>
+<form id="form-POSTapi-packages-updateStatus" data-method="POST" data-path="api/packages/updateStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-packages-updateStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-packages-updateStatus" onclick="tryItOut('POSTapi-packages-updateStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-packages-updateStatus" onclick="cancelTryOut('POSTapi-packages-updateStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-packages-updateStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/packages/updateStatus</code></b>
+</p>
+</form>
+
+
+## api/packages/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X PUT \
+    "http://smallchops.test/api/packages/nesciunt" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages/nesciunt"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "PUT",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-PUTapi-packages--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-PUTapi-packages--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-packages--id-"></code></pre>
+</div>
+<div id="execution-error-PUTapi-packages--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-packages--id-"></code></pre>
+</div>
+<form id="form-PUTapi-packages--id-" data-method="PUT" data-path="api/packages/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('PUTapi-packages--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-PUTapi-packages--id-" onclick="tryItOut('PUTapi-packages--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-PUTapi-packages--id-" onclick="cancelTryOut('PUTapi-packages--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-PUTapi-packages--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-darkblue">PUT</small>
+ <b><code>api/packages/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="PUTapi-packages--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/packages/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/packages/totam" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/packages/totam"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-packages--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-packages--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-packages--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-packages--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-packages--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-packages--id-" data-method="DELETE" data-path="api/packages/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-packages--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-packages--id-" onclick="tryItOut('DELETEapi-packages--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-packages--id-" onclick="cancelTryOut('DELETEapi-packages--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-packages--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/packages/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-packages--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders"></code></pre>
+</div>
+<form id="form-POSTapi-orders" data-method="POST" data-path="api/orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders" onclick="tryItOut('POSTapi-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders" onclick="cancelTryOut('POSTapi-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders</code></b>
+</p>
+</form>
+
+
+## api/orders/changeStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/changeStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/changeStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-changeStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-changeStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-changeStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-changeStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-changeStatus"></code></pre>
+</div>
+<form id="form-POSTapi-orders-changeStatus" data-method="POST" data-path="api/orders/changeStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-changeStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-changeStatus" onclick="tryItOut('POSTapi-orders-changeStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-changeStatus" onclick="cancelTryOut('POSTapi-orders-changeStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-changeStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/changeStatus</code></b>
+</p>
+</form>
+
+
+## Callback Pay4Me
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders/callbackPay4Me" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/callbackPay4Me"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders-callbackPay4Me" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders-callbackPay4Me"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders-callbackPay4Me"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders-callbackPay4Me" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders-callbackPay4Me"></code></pre>
+</div>
+<form id="form-GETapi-orders-callbackPay4Me" data-method="GET" data-path="api/orders/callbackPay4Me" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders-callbackPay4Me', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders-callbackPay4Me" onclick="tryItOut('GETapi-orders-callbackPay4Me');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders-callbackPay4Me" onclick="cancelTryOut('GETapi-orders-callbackPay4Me');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders-callbackPay4Me" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders/callbackPay4Me</code></b>
+</p>
+</form>
+
+
+## api/orders/changeDayStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/changeDayStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/changeDayStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-changeDayStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-changeDayStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-changeDayStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-changeDayStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-changeDayStatus"></code></pre>
+</div>
+<form id="form-POSTapi-orders-changeDayStatus" data-method="POST" data-path="api/orders/changeDayStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-changeDayStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-changeDayStatus" onclick="tryItOut('POSTapi-orders-changeDayStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-changeDayStatus" onclick="cancelTryOut('POSTapi-orders-changeDayStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-changeDayStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/changeDayStatus</code></b>
+</p>
+</form>
+
+
+## api/orders/assignRider
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/assignRider" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/assignRider"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-assignRider" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-assignRider"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-assignRider"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-assignRider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-assignRider"></code></pre>
+</div>
+<form id="form-POSTapi-orders-assignRider" data-method="POST" data-path="api/orders/assignRider" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-assignRider', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-assignRider" onclick="tryItOut('POSTapi-orders-assignRider');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-assignRider" onclick="cancelTryOut('POSTapi-orders-assignRider');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-assignRider" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/assignRider</code></b>
+</p>
+</form>
+
+
+## api/orders/storeTrackedDate
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/storeTrackedDate" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/storeTrackedDate"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-storeTrackedDate" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-storeTrackedDate"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-storeTrackedDate"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-storeTrackedDate" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-storeTrackedDate"></code></pre>
+</div>
+<form id="form-POSTapi-orders-storeTrackedDate" data-method="POST" data-path="api/orders/storeTrackedDate" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-storeTrackedDate', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-storeTrackedDate" onclick="tryItOut('POSTapi-orders-storeTrackedDate');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-storeTrackedDate" onclick="cancelTryOut('POSTapi-orders-storeTrackedDate');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-storeTrackedDate" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/storeTrackedDate</code></b>
+</p>
+</form>
+
+
+## Paystack Webhook
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/paystackWebhook" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/paystackWebhook"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-paystackWebhook" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-paystackWebhook"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-paystackWebhook"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-paystackWebhook" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-paystackWebhook"></code></pre>
+</div>
+<form id="form-POSTapi-orders-paystackWebhook" data-method="POST" data-path="api/orders/paystackWebhook" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-paystackWebhook', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-paystackWebhook" onclick="tryItOut('POSTapi-orders-paystackWebhook');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-paystackWebhook" onclick="cancelTryOut('POSTapi-orders-paystackWebhook');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-paystackWebhook" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/paystackWebhook</code></b>
+</p>
+</form>
+
+
+## Fetch list of packages and order counts
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders/fetchPackageOrder" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/fetchPackageOrder"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders-fetchPackageOrder" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders-fetchPackageOrder"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders-fetchPackageOrder"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders-fetchPackageOrder" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders-fetchPackageOrder"></code></pre>
+</div>
+<form id="form-GETapi-orders-fetchPackageOrder" data-method="GET" data-path="api/orders/fetchPackageOrder" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders-fetchPackageOrder', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders-fetchPackageOrder" onclick="tryItOut('GETapi-orders-fetchPackageOrder');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders-fetchPackageOrder" onclick="cancelTryOut('GETapi-orders-fetchPackageOrder');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders-fetchPackageOrder" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders/fetchPackageOrder</code></b>
+</p>
+</form>
+
+
+## api/orders/fetchDeliveryDays
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders/fetchDeliveryDays" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/fetchDeliveryDays"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders-fetchDeliveryDays" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders-fetchDeliveryDays"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders-fetchDeliveryDays"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders-fetchDeliveryDays" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders-fetchDeliveryDays"></code></pre>
+</div>
+<form id="form-GETapi-orders-fetchDeliveryDays" data-method="GET" data-path="api/orders/fetchDeliveryDays" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders-fetchDeliveryDays', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders-fetchDeliveryDays" onclick="tryItOut('GETapi-orders-fetchDeliveryDays');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders-fetchDeliveryDays" onclick="cancelTryOut('GETapi-orders-fetchDeliveryDays');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders-fetchDeliveryDays" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders/fetchDeliveryDays</code></b>
+</p>
+</form>
+
+
+## api/orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders"></code></pre>
+</div>
+<form id="form-GETapi-orders" data-method="GET" data-path="api/orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders" onclick="tryItOut('GETapi-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders" onclick="cancelTryOut('GETapi-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders</code></b>
+</p>
+</form>
+
+
+## api/orders/changePaymentStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/changePaymentStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/changePaymentStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-changePaymentStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-changePaymentStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-changePaymentStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-changePaymentStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-changePaymentStatus"></code></pre>
+</div>
+<form id="form-POSTapi-orders-changePaymentStatus" data-method="POST" data-path="api/orders/changePaymentStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-changePaymentStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-changePaymentStatus" onclick="tryItOut('POSTapi-orders-changePaymentStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-changePaymentStatus" onclick="cancelTryOut('POSTapi-orders-changePaymentStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-changePaymentStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/changePaymentStatus</code></b>
+</p>
+</form>
+
+
+## api/orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X PUT \
+    "http://smallchops.test/api/orders/aut" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/aut"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "PUT",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-PUTapi-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-PUTapi-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-orders--id-"></code></pre>
+</div>
+<div id="execution-error-PUTapi-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-orders--id-"></code></pre>
+</div>
+<form id="form-PUTapi-orders--id-" data-method="PUT" data-path="api/orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('PUTapi-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-PUTapi-orders--id-" onclick="tryItOut('PUTapi-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-PUTapi-orders--id-" onclick="cancelTryOut('PUTapi-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-PUTapi-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-darkblue">PUT</small>
+ <b><code>api/orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="PUTapi-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Store order and generate pay4me link
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/storePay4Me" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/storePay4Me"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-storePay4Me" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-storePay4Me"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-storePay4Me"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-storePay4Me" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-storePay4Me"></code></pre>
+</div>
+<form id="form-POSTapi-orders-storePay4Me" data-method="POST" data-path="api/orders/storePay4Me" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-storePay4Me', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-storePay4Me" onclick="tryItOut('POSTapi-orders-storePay4Me');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-storePay4Me" onclick="cancelTryOut('POSTapi-orders-storePay4Me');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-storePay4Me" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/storePay4Me</code></b>
+</p>
+</form>
+
+
+## api/orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/orders/ut" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/ut"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-orders--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-orders--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-orders--id-" data-method="DELETE" data-path="api/orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-orders--id-" onclick="tryItOut('DELETEapi-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-orders--id-" onclick="cancelTryOut('DELETEapi-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/orders/changeTrackedDateStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/orders/changeTrackedDateStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/changeTrackedDateStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-orders-changeTrackedDateStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-orders-changeTrackedDateStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-orders-changeTrackedDateStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-orders-changeTrackedDateStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-orders-changeTrackedDateStatus"></code></pre>
+</div>
+<form id="form-POSTapi-orders-changeTrackedDateStatus" data-method="POST" data-path="api/orders/changeTrackedDateStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-orders-changeTrackedDateStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-orders-changeTrackedDateStatus" onclick="tryItOut('POSTapi-orders-changeTrackedDateStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-orders-changeTrackedDateStatus" onclick="cancelTryOut('POSTapi-orders-changeTrackedDateStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-orders-changeTrackedDateStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/orders/changeTrackedDateStatus</code></b>
+</p>
+</form>
+
+
+## api/orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders/esse" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/esse"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (405):
+
+```json
+{
+    "message": "The GET method is not supported for this route. Supported methods: PUT, DELETE.",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\MethodNotAllowedHttpException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/AbstractRouteCollection.php",
+    "line": 117,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/AbstractRouteCollection.php",
+            "line": 103,
+            "function": "methodNotAllowed",
+            "class": "Illuminate\\Routing\\AbstractRouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/AbstractRouteCollection.php",
+            "line": 40,
+            "function": "getRouteForMethods",
+            "class": "Illuminate\\Routing\\AbstractRouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/RouteCollection.php",
+            "line": 162,
+            "function": "handleMatchedRoute",
+            "class": "Illuminate\\Routing\\AbstractRouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 647,
+            "function": "match",
+            "class": "Illuminate\\Routing\\RouteCollection",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "findRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders--id-"></code></pre>
+</div>
+<form id="form-GETapi-orders--id-" data-method="GET" data-path="api/orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders--id-" onclick="tryItOut('GETapi-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders--id-" onclick="cancelTryOut('GETapi-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/orders/fetchTrackedDeliveryDates
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders/fetchTrackedDeliveryDates" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/fetchTrackedDeliveryDates"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders-fetchTrackedDeliveryDates" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders-fetchTrackedDeliveryDates"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders-fetchTrackedDeliveryDates"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders-fetchTrackedDeliveryDates" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders-fetchTrackedDeliveryDates"></code></pre>
+</div>
+<form id="form-GETapi-orders-fetchTrackedDeliveryDates" data-method="GET" data-path="api/orders/fetchTrackedDeliveryDates" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders-fetchTrackedDeliveryDates', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders-fetchTrackedDeliveryDates" onclick="tryItOut('GETapi-orders-fetchTrackedDeliveryDates');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders-fetchTrackedDeliveryDates" onclick="cancelTryOut('GETapi-orders-fetchTrackedDeliveryDates');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders-fetchTrackedDeliveryDates" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders/fetchTrackedDeliveryDates</code></b>
+</p>
+</form>
+
+
+## api/orders/verifyPayments
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/orders/verifyPayments" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/orders/verifyPayments"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-orders-verifyPayments" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-orders-verifyPayments"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-orders-verifyPayments"></code></pre>
+</div>
+<div id="execution-error-GETapi-orders-verifyPayments" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-orders-verifyPayments"></code></pre>
+</div>
+<form id="form-GETapi-orders-verifyPayments" data-method="GET" data-path="api/orders/verifyPayments" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-orders-verifyPayments', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-orders-verifyPayments" onclick="tryItOut('GETapi-orders-verifyPayments');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-orders-verifyPayments" onclick="cancelTryOut('GETapi-orders-verifyPayments');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-orders-verifyPayments" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/orders/verifyPayments</code></b>
+</p>
+</form>
+
+
+## api/event-orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/event-orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-event-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-event-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-event-orders"></code></pre>
+</div>
+<div id="execution-error-GETapi-event-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-event-orders"></code></pre>
+</div>
+<form id="form-GETapi-event-orders" data-method="GET" data-path="api/event-orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-event-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-event-orders" onclick="tryItOut('GETapi-event-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-event-orders" onclick="cancelTryOut('GETapi-event-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-event-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/event-orders</code></b>
+</p>
+</form>
+
+
+## api/event-orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/event-orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-event-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-event-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-event-orders"></code></pre>
+</div>
+<div id="execution-error-POSTapi-event-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-event-orders"></code></pre>
+</div>
+<form id="form-POSTapi-event-orders" data-method="POST" data-path="api/event-orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-event-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-event-orders" onclick="tryItOut('POSTapi-event-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-event-orders" onclick="cancelTryOut('POSTapi-event-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-event-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/event-orders</code></b>
+</p>
+</form>
+
+
+## api/event-orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/event-orders/consequuntur" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders/consequuntur"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-event-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-event-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-event-orders--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-event-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-event-orders--id-"></code></pre>
+</div>
+<form id="form-GETapi-event-orders--id-" data-method="GET" data-path="api/event-orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-event-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-event-orders--id-" onclick="tryItOut('GETapi-event-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-event-orders--id-" onclick="cancelTryOut('GETapi-event-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-event-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/event-orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-event-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/event-orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X PUT \
+    "http://smallchops.test/api/event-orders/voluptate" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders/voluptate"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "PUT",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-PUTapi-event-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-PUTapi-event-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-event-orders--id-"></code></pre>
+</div>
+<div id="execution-error-PUTapi-event-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-event-orders--id-"></code></pre>
+</div>
+<form id="form-PUTapi-event-orders--id-" data-method="PUT" data-path="api/event-orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('PUTapi-event-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-PUTapi-event-orders--id-" onclick="tryItOut('PUTapi-event-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-PUTapi-event-orders--id-" onclick="cancelTryOut('PUTapi-event-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-PUTapi-event-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-darkblue">PUT</small>
+ <b><code>api/event-orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="PUTapi-event-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/event-orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/event-orders/sit" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders/sit"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-event-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-event-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-event-orders--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-event-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-event-orders--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-event-orders--id-" data-method="DELETE" data-path="api/event-orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-event-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-event-orders--id-" onclick="tryItOut('DELETEapi-event-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-event-orders--id-" onclick="cancelTryOut('DELETEapi-event-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-event-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/event-orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-event-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/event-orders/changeStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/event-orders/changeStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders/changeStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-event-orders-changeStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-event-orders-changeStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-event-orders-changeStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-event-orders-changeStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-event-orders-changeStatus"></code></pre>
+</div>
+<form id="form-POSTapi-event-orders-changeStatus" data-method="POST" data-path="api/event-orders/changeStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-event-orders-changeStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-event-orders-changeStatus" onclick="tryItOut('POSTapi-event-orders-changeStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-event-orders-changeStatus" onclick="cancelTryOut('POSTapi-event-orders-changeStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-event-orders-changeStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/event-orders/changeStatus</code></b>
+</p>
+</form>
+
+
+## api/event-orders/changePaymentStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/event-orders/changePaymentStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/event-orders/changePaymentStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-event-orders-changePaymentStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-event-orders-changePaymentStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-event-orders-changePaymentStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-event-orders-changePaymentStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-event-orders-changePaymentStatus"></code></pre>
+</div>
+<form id="form-POSTapi-event-orders-changePaymentStatus" data-method="POST" data-path="api/event-orders/changePaymentStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-event-orders-changePaymentStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-event-orders-changePaymentStatus" onclick="tryItOut('POSTapi-event-orders-changePaymentStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-event-orders-changePaymentStatus" onclick="cancelTryOut('POSTapi-event-orders-changePaymentStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-event-orders-changePaymentStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/event-orders/changePaymentStatus</code></b>
+</p>
+</form>
+
+
+## api/corporate-orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/corporate-orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-corporate-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-corporate-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-corporate-orders"></code></pre>
+</div>
+<div id="execution-error-GETapi-corporate-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-corporate-orders"></code></pre>
+</div>
+<form id="form-GETapi-corporate-orders" data-method="GET" data-path="api/corporate-orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-corporate-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-corporate-orders" onclick="tryItOut('GETapi-corporate-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-corporate-orders" onclick="cancelTryOut('GETapi-corporate-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-corporate-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/corporate-orders</code></b>
+</p>
+</form>
+
+
+## api/corporate-orders
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/corporate-orders" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-corporate-orders" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-corporate-orders"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-corporate-orders"></code></pre>
+</div>
+<div id="execution-error-POSTapi-corporate-orders" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-corporate-orders"></code></pre>
+</div>
+<form id="form-POSTapi-corporate-orders" data-method="POST" data-path="api/corporate-orders" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-corporate-orders', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-corporate-orders" onclick="tryItOut('POSTapi-corporate-orders');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-corporate-orders" onclick="cancelTryOut('POSTapi-corporate-orders');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-corporate-orders" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/corporate-orders</code></b>
+</p>
+</form>
+
+
+## api/corporate-orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/corporate-orders/minima" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders/minima"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-corporate-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-corporate-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-corporate-orders--id-"></code></pre>
+</div>
+<div id="execution-error-GETapi-corporate-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-corporate-orders--id-"></code></pre>
+</div>
+<form id="form-GETapi-corporate-orders--id-" data-method="GET" data-path="api/corporate-orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-corporate-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-corporate-orders--id-" onclick="tryItOut('GETapi-corporate-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-corporate-orders--id-" onclick="cancelTryOut('GETapi-corporate-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-corporate-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/corporate-orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="GETapi-corporate-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/corporate-orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X PUT \
+    "http://smallchops.test/api/corporate-orders/vero" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders/vero"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "PUT",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-PUTapi-corporate-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-PUTapi-corporate-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-corporate-orders--id-"></code></pre>
+</div>
+<div id="execution-error-PUTapi-corporate-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-corporate-orders--id-"></code></pre>
+</div>
+<form id="form-PUTapi-corporate-orders--id-" data-method="PUT" data-path="api/corporate-orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('PUTapi-corporate-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-PUTapi-corporate-orders--id-" onclick="tryItOut('PUTapi-corporate-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-PUTapi-corporate-orders--id-" onclick="cancelTryOut('PUTapi-corporate-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-PUTapi-corporate-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-darkblue">PUT</small>
+ <b><code>api/corporate-orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="PUTapi-corporate-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/corporate-orders/{id}
+
+
+
+
+> Example request:
+
+```bash
+curl -X DELETE \
+    "http://smallchops.test/api/corporate-orders/neque" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders/neque"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-DELETEapi-corporate-orders--id-" hidden>
+    <blockquote>Received response<span id="execution-response-status-DELETEapi-corporate-orders--id-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-corporate-orders--id-"></code></pre>
+</div>
+<div id="execution-error-DELETEapi-corporate-orders--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-corporate-orders--id-"></code></pre>
+</div>
+<form id="form-DELETEapi-corporate-orders--id-" data-method="DELETE" data-path="api/corporate-orders/{id}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('DELETEapi-corporate-orders--id-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-DELETEapi-corporate-orders--id-" onclick="tryItOut('DELETEapi-corporate-orders--id-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-DELETEapi-corporate-orders--id-" onclick="cancelTryOut('DELETEapi-corporate-orders--id-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-DELETEapi-corporate-orders--id-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-red">DELETE</small>
+ <b><code>api/corporate-orders/{id}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="id" data-endpoint="DELETEapi-corporate-orders--id-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Changes order status
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/corporate-orders/changeStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders/changeStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-corporate-orders-changeStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-corporate-orders-changeStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-corporate-orders-changeStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-corporate-orders-changeStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-corporate-orders-changeStatus"></code></pre>
+</div>
+<form id="form-POSTapi-corporate-orders-changeStatus" data-method="POST" data-path="api/corporate-orders/changeStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-corporate-orders-changeStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-corporate-orders-changeStatus" onclick="tryItOut('POSTapi-corporate-orders-changeStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-corporate-orders-changeStatus" onclick="cancelTryOut('POSTapi-corporate-orders-changeStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-corporate-orders-changeStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/corporate-orders/changeStatus</code></b>
+</p>
+</form>
+
+
+## api/corporate-orders/assignRider
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/corporate-orders/assignRider" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders/assignRider"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-corporate-orders-assignRider" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-corporate-orders-assignRider"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-corporate-orders-assignRider"></code></pre>
+</div>
+<div id="execution-error-POSTapi-corporate-orders-assignRider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-corporate-orders-assignRider"></code></pre>
+</div>
+<form id="form-POSTapi-corporate-orders-assignRider" data-method="POST" data-path="api/corporate-orders/assignRider" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-corporate-orders-assignRider', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-corporate-orders-assignRider" onclick="tryItOut('POSTapi-corporate-orders-assignRider');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-corporate-orders-assignRider" onclick="cancelTryOut('POSTapi-corporate-orders-assignRider');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-corporate-orders-assignRider" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/corporate-orders/assignRider</code></b>
+</p>
+</form>
+
+
+## api/corporate-orders/changePaymentStatus
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/corporate-orders/changePaymentStatus" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/corporate-orders/changePaymentStatus"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-corporate-orders-changePaymentStatus" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-corporate-orders-changePaymentStatus"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-corporate-orders-changePaymentStatus"></code></pre>
+</div>
+<div id="execution-error-POSTapi-corporate-orders-changePaymentStatus" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-corporate-orders-changePaymentStatus"></code></pre>
+</div>
+<form id="form-POSTapi-corporate-orders-changePaymentStatus" data-method="POST" data-path="api/corporate-orders/changePaymentStatus" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-corporate-orders-changePaymentStatus', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-corporate-orders-changePaymentStatus" onclick="tryItOut('POSTapi-corporate-orders-changePaymentStatus');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-corporate-orders-changePaymentStatus" onclick="cancelTryOut('POSTapi-corporate-orders-changePaymentStatus');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-corporate-orders-changePaymentStatus" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/corporate-orders/changePaymentStatus</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/coupons" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/coupons"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-coupons" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-coupons"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-coupons"></code></pre>
+</div>
+<div id="execution-error-GETapi-coupons" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-coupons"></code></pre>
+</div>
+<form id="form-GETapi-coupons" data-method="GET" data-path="api/coupons" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-coupons', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-coupons" onclick="tryItOut('GETapi-coupons');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-coupons" onclick="cancelTryOut('GETapi-coupons');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-coupons" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/coupons</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/coupons" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/coupons"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-coupons" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-coupons"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-coupons"></code></pre>
+</div>
+<div id="execution-error-POSTapi-coupons" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-coupons"></code></pre>
+</div>
+<form id="form-POSTapi-coupons" data-method="POST" data-path="api/coupons" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-coupons', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-coupons" onclick="tryItOut('POSTapi-coupons');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-coupons" onclick="cancelTryOut('POSTapi-coupons');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-coupons" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/coupons</code></b>
+</p>
+</form>
+
+
+## api/coupons/generate-report
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/coupons/generate-report" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/coupons/generate-report"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-coupons-generate-report" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-coupons-generate-report"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-coupons-generate-report"></code></pre>
+</div>
+<div id="execution-error-GETapi-coupons-generate-report" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-coupons-generate-report"></code></pre>
+</div>
+<form id="form-GETapi-coupons-generate-report" data-method="GET" data-path="api/coupons/generate-report" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-coupons-generate-report', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-coupons-generate-report" onclick="tryItOut('GETapi-coupons-generate-report');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-coupons-generate-report" onclick="cancelTryOut('GETapi-coupons-generate-report');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-coupons-generate-report" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/coupons/generate-report</code></b>
+</p>
+</form>
+
+
+## api/coupons/{code}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/coupons/officiis" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/coupons/officiis"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-coupons--code-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-coupons--code-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-coupons--code-"></code></pre>
+</div>
+<div id="execution-error-GETapi-coupons--code-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-coupons--code-"></code></pre>
+</div>
+<form id="form-GETapi-coupons--code-" data-method="GET" data-path="api/coupons/{code}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-coupons--code-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-coupons--code-" onclick="tryItOut('GETapi-coupons--code-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-coupons--code-" onclick="cancelTryOut('GETapi-coupons--code-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-coupons--code-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/coupons/{code}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>code</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="code" data-endpoint="GETapi-coupons--code-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/contacts" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/contacts"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-contacts" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-contacts"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contacts"></code></pre>
+</div>
+<div id="execution-error-GETapi-contacts" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contacts"></code></pre>
+</div>
+<form id="form-GETapi-contacts" data-method="GET" data-path="api/contacts" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-contacts', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-contacts" onclick="tryItOut('GETapi-contacts');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-contacts" onclick="cancelTryOut('GETapi-contacts');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-contacts" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/contacts</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/contacts" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/contacts"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-contacts" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-contacts"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-contacts"></code></pre>
+</div>
+<div id="execution-error-POSTapi-contacts" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-contacts"></code></pre>
+</div>
+<form id="form-POSTapi-contacts" data-method="POST" data-path="api/contacts" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-contacts', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-contacts" onclick="tryItOut('POSTapi-contacts');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-contacts" onclick="cancelTryOut('POSTapi-contacts');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-contacts" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/contacts</code></b>
+</p>
+</form>
+
+
+## Display the specified resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/contacts/sunt" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/contacts/sunt"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-contacts--code-" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-contacts--code-"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contacts--code-"></code></pre>
+</div>
+<div id="execution-error-GETapi-contacts--code-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contacts--code-"></code></pre>
+</div>
+<form id="form-GETapi-contacts--code-" data-method="GET" data-path="api/contacts/{code}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-contacts--code-', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-contacts--code-" onclick="tryItOut('GETapi-contacts--code-');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-contacts--code-" onclick="cancelTryOut('GETapi-contacts--code-');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-contacts--code-" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/contacts/{code}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>code</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="code" data-endpoint="GETapi-contacts--code-" data-component="url" required  hidden>
+<br>
+
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/bank-accounts" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-accounts"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-bank-accounts" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-bank-accounts"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-bank-accounts"></code></pre>
+</div>
+<div id="execution-error-GETapi-bank-accounts" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-bank-accounts"></code></pre>
+</div>
+<form id="form-GETapi-bank-accounts" data-method="GET" data-path="api/bank-accounts" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-bank-accounts', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-bank-accounts" onclick="tryItOut('GETapi-bank-accounts');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-bank-accounts" onclick="cancelTryOut('GETapi-bank-accounts');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-bank-accounts" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/bank-accounts</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/bank-accounts" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-accounts"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-bank-accounts" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-bank-accounts"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-bank-accounts"></code></pre>
+</div>
+<div id="execution-error-POSTapi-bank-accounts" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-bank-accounts"></code></pre>
+</div>
+<form id="form-POSTapi-bank-accounts" data-method="POST" data-path="api/bank-accounts" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-bank-accounts', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-bank-accounts" onclick="tryItOut('POSTapi-bank-accounts');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-bank-accounts" onclick="cancelTryOut('POSTapi-bank-accounts');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-bank-accounts" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/bank-accounts</code></b>
+</p>
+</form>
+
+
+## Update the specified resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/bank-accounts/update" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-accounts/update"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-bank-accounts-update" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-bank-accounts-update"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-bank-accounts-update"></code></pre>
+</div>
+<div id="execution-error-POSTapi-bank-accounts-update" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-bank-accounts-update"></code></pre>
+</div>
+<form id="form-POSTapi-bank-accounts-update" data-method="POST" data-path="api/bank-accounts/update" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-bank-accounts-update', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-bank-accounts-update" onclick="tryItOut('POSTapi-bank-accounts-update');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-bank-accounts-update" onclick="cancelTryOut('POSTapi-bank-accounts-update');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-bank-accounts-update" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/bank-accounts/update</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/bank-accounts/store" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-accounts/store"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-bank-accounts-store" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-bank-accounts-store"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-bank-accounts-store"></code></pre>
+</div>
+<div id="execution-error-POSTapi-bank-accounts-store" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-bank-accounts-store"></code></pre>
+</div>
+<form id="form-POSTapi-bank-accounts-store" data-method="POST" data-path="api/bank-accounts/store" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-bank-accounts-store', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-bank-accounts-store" onclick="tryItOut('POSTapi-bank-accounts-store');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-bank-accounts-store" onclick="cancelTryOut('POSTapi-bank-accounts-store');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-bank-accounts-store" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/bank-accounts/store</code></b>
+</p>
+</form>
+
+
+## Display a listing of the resource.
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/bank-payments" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-payments"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-bank-payments" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-bank-payments"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-bank-payments"></code></pre>
+</div>
+<div id="execution-error-GETapi-bank-payments" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-bank-payments"></code></pre>
+</div>
+<form id="form-GETapi-bank-payments" data-method="GET" data-path="api/bank-payments" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-bank-payments', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-bank-payments" onclick="tryItOut('GETapi-bank-payments');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-bank-payments" onclick="cancelTryOut('GETapi-bank-payments');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-bank-payments" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/bank-payments</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/bank-payments" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-payments"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-bank-payments" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-bank-payments"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-bank-payments"></code></pre>
+</div>
+<div id="execution-error-POSTapi-bank-payments" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-bank-payments"></code></pre>
+</div>
+<form id="form-POSTapi-bank-payments" data-method="POST" data-path="api/bank-payments" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-bank-payments', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-bank-payments" onclick="tryItOut('POSTapi-bank-payments');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-bank-payments" onclick="cancelTryOut('POSTapi-bank-payments');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-bank-payments" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/bank-payments</code></b>
+</p>
+</form>
+
+
+## Update the specified resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/bank-payments/update" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-payments/update"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-bank-payments-update" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-bank-payments-update"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-bank-payments-update"></code></pre>
+</div>
+<div id="execution-error-POSTapi-bank-payments-update" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-bank-payments-update"></code></pre>
+</div>
+<form id="form-POSTapi-bank-payments-update" data-method="POST" data-path="api/bank-payments/update" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-bank-payments-update', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-bank-payments-update" onclick="tryItOut('POSTapi-bank-payments-update');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-bank-payments-update" onclick="cancelTryOut('POSTapi-bank-payments-update');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-bank-payments-update" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/bank-payments/update</code></b>
+</p>
+</form>
+
+
+## Store a newly created resource in storage.
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/bank-payments/store" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/bank-payments/store"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-bank-payments-store" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-bank-payments-store"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-bank-payments-store"></code></pre>
+</div>
+<div id="execution-error-POSTapi-bank-payments-store" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-bank-payments-store"></code></pre>
+</div>
+<form id="form-POSTapi-bank-payments-store" data-method="POST" data-path="api/bank-payments/store" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-bank-payments-store', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-bank-payments-store" onclick="tryItOut('POSTapi-bank-payments-store');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-bank-payments-store" onclick="cancelTryOut('POSTapi-bank-payments-store');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-bank-payments-store" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/bank-payments/store</code></b>
+</p>
+</form>
+
+
+## api/transactions/monnify/authenticate
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/transactions/monnify/authenticate" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/transactions/monnify/authenticate"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-transactions-monnify-authenticate" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-transactions-monnify-authenticate"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-transactions-monnify-authenticate"></code></pre>
+</div>
+<div id="execution-error-POSTapi-transactions-monnify-authenticate" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-transactions-monnify-authenticate"></code></pre>
+</div>
+<form id="form-POSTapi-transactions-monnify-authenticate" data-method="POST" data-path="api/transactions/monnify/authenticate" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-transactions-monnify-authenticate', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-transactions-monnify-authenticate" onclick="tryItOut('POSTapi-transactions-monnify-authenticate');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-transactions-monnify-authenticate" onclick="cancelTryOut('POSTapi-transactions-monnify-authenticate');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-transactions-monnify-authenticate" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/transactions/monnify/authenticate</code></b>
+</p>
+</form>
+
+
+## api/transactions/monnify
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/transactions/monnify" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/transactions/monnify"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-transactions-monnify" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-transactions-monnify"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-transactions-monnify"></code></pre>
+</div>
+<div id="execution-error-POSTapi-transactions-monnify" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-transactions-monnify"></code></pre>
+</div>
+<form id="form-POSTapi-transactions-monnify" data-method="POST" data-path="api/transactions/monnify" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-transactions-monnify', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-transactions-monnify" onclick="tryItOut('POSTapi-transactions-monnify');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-transactions-monnify" onclick="cancelTryOut('POSTapi-transactions-monnify');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-transactions-monnify" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/transactions/monnify</code></b>
+</p>
+</form>
+
+
+## api/transactions/paystack
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/transactions/paystack" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/transactions/paystack"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-transactions-paystack" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-transactions-paystack"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-transactions-paystack"></code></pre>
+</div>
+<div id="execution-error-POSTapi-transactions-paystack" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-transactions-paystack"></code></pre>
+</div>
+<form id="form-POSTapi-transactions-paystack" data-method="POST" data-path="api/transactions/paystack" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-transactions-paystack', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-transactions-paystack" onclick="tryItOut('POSTapi-transactions-paystack');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-transactions-paystack" onclick="cancelTryOut('POSTapi-transactions-paystack');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-transactions-paystack" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/transactions/paystack</code></b>
+</p>
+</form>
+
+
+## api/report/fetchAllTotals/{startDate?}/{endDate?}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/report/fetchAllTotals/ea/blanditiis" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/report/fetchAllTotals/ea/blanditiis"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-report-fetchAllTotals--startDate----endDate--" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-report-fetchAllTotals--startDate----endDate--"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-report-fetchAllTotals--startDate----endDate--"></code></pre>
+</div>
+<div id="execution-error-GETapi-report-fetchAllTotals--startDate----endDate--" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-report-fetchAllTotals--startDate----endDate--"></code></pre>
+</div>
+<form id="form-GETapi-report-fetchAllTotals--startDate----endDate--" data-method="GET" data-path="api/report/fetchAllTotals/{startDate?}/{endDate?}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-report-fetchAllTotals--startDate----endDate--', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-report-fetchAllTotals--startDate----endDate--" onclick="tryItOut('GETapi-report-fetchAllTotals--startDate----endDate--');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-report-fetchAllTotals--startDate----endDate--" onclick="cancelTryOut('GETapi-report-fetchAllTotals--startDate----endDate--');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-report-fetchAllTotals--startDate----endDate--" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/report/fetchAllTotals/{startDate?}/{endDate?}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>startDate</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+<input type="text" name="startDate" data-endpoint="GETapi-report-fetchAllTotals--startDate----endDate--" data-component="url"  hidden>
+<br>
+
+</p>
+<p>
+<b><code>endDate</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+<input type="text" name="endDate" data-endpoint="GETapi-report-fetchAllTotals--startDate----endDate--" data-component="url"  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/report/fetchPackageRevenue/{startDate?}/{endDate?}
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/api/report/fetchPackageRevenue/ut/sed" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/report/fetchPackageRevenue/ut/sed"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (429):
+
+```json
+{
+    "message": "Too Many Attempts.",
+    "exception": "Illuminate\\Http\\Exceptions\\ThrottleRequestsException",
+    "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+    "line": 200,
+    "trace": [
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 121,
+            "function": "buildException",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php",
+            "line": 63,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 697,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 672,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 636,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php",
+            "line": 625,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php",
+            "line": 37,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/fideloper\/proxy\/src\/TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 324,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 305,
+            "function": "callLaravelOrLumenRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 76,
+            "function": "makeApiCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 51,
+            "function": "makeResponseCall",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Strategies\/Responses\/ResponseCalls.php",
+            "line": 41,
+            "function": "makeResponseCallIfEnabledAndNoSuccessResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 236,
+            "function": "__invoke",
+            "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 172,
+            "function": "iterateThroughStrategies",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Extracting\/Generator.php",
+            "line": 127,
+            "function": "fetchResponses",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 119,
+            "function": "processRoute",
+            "class": "Knuckles\\Scribe\\Extracting\\Generator",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/knuckleswtf\/scribe\/src\/Commands\/GenerateDocumentation.php",
+            "line": 73,
+            "function": "processRoutes",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 36,
+            "function": "handle",
+            "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Util.php",
+            "line": 40,
+            "function": "Illuminate\\Container\\{closure}",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 93,
+            "function": "unwrapIfClosure",
+            "class": "Illuminate\\Container\\Util",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/BoundMethod.php",
+            "line": 37,
+            "function": "callBoundMethod",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Container\/Container.php",
+            "line": 611,
+            "function": "call",
+            "class": "Illuminate\\Container\\BoundMethod",
+            "type": "::"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 136,
+            "function": "call",
+            "class": "Illuminate\\Container\\Container",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Command\/Command.php",
+            "line": 256,
+            "function": "execute",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Command.php",
+            "line": 121,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Command\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 971,
+            "function": "run",
+            "class": "Illuminate\\Console\\Command",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 290,
+            "function": "doRunCommand",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/symfony\/console\/Application.php",
+            "line": 166,
+            "function": "doRun",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Console\/Application.php",
+            "line": 92,
+            "function": "run",
+            "class": "Symfony\\Component\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Console\/Kernel.php",
+            "line": 129,
+            "function": "run",
+            "class": "Illuminate\\Console\\Application",
+            "type": "->"
+        },
+        {
+            "file": "\/Users\/aeadedoyin\/Projects\/smallchops-backend\/artisan",
+            "line": 37,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Console\\Kernel",
+            "type": "->"
+        }
+    ]
+}
+```
+<div id="execution-results-GETapi-report-fetchPackageRevenue--startDate----endDate--" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETapi-report-fetchPackageRevenue--startDate----endDate--"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-report-fetchPackageRevenue--startDate----endDate--"></code></pre>
+</div>
+<div id="execution-error-GETapi-report-fetchPackageRevenue--startDate----endDate--" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-report-fetchPackageRevenue--startDate----endDate--"></code></pre>
+</div>
+<form id="form-GETapi-report-fetchPackageRevenue--startDate----endDate--" data-method="GET" data-path="api/report/fetchPackageRevenue/{startDate?}/{endDate?}" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETapi-report-fetchPackageRevenue--startDate----endDate--', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETapi-report-fetchPackageRevenue--startDate----endDate--" onclick="tryItOut('GETapi-report-fetchPackageRevenue--startDate----endDate--');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETapi-report-fetchPackageRevenue--startDate----endDate--" onclick="cancelTryOut('GETapi-report-fetchPackageRevenue--startDate----endDate--');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETapi-report-fetchPackageRevenue--startDate----endDate--" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>api/report/fetchPackageRevenue/{startDate?}/{endDate?}</code></b>
+</p>
+<h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+<p>
+<b><code>startDate</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+<input type="text" name="startDate" data-endpoint="GETapi-report-fetchPackageRevenue--startDate----endDate--" data-component="url"  hidden>
+<br>
+
+</p>
+<p>
+<b><code>endDate</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+<input type="text" name="endDate" data-endpoint="GETapi-report-fetchPackageRevenue--startDate----endDate--" data-component="url"  hidden>
+<br>
+
+</p>
+</form>
+
+
+## api/report/fetchOrderRider
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/report/fetchOrderRider" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/report/fetchOrderRider"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-report-fetchOrderRider" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-report-fetchOrderRider"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-report-fetchOrderRider"></code></pre>
+</div>
+<div id="execution-error-POSTapi-report-fetchOrderRider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-report-fetchOrderRider"></code></pre>
+</div>
+<form id="form-POSTapi-report-fetchOrderRider" data-method="POST" data-path="api/report/fetchOrderRider" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-report-fetchOrderRider', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-report-fetchOrderRider" onclick="tryItOut('POSTapi-report-fetchOrderRider');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-report-fetchOrderRider" onclick="cancelTryOut('POSTapi-report-fetchOrderRider');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-report-fetchOrderRider" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/report/fetchOrderRider</code></b>
+</p>
+</form>
+
+
+## api/report/fetchOrderPerPeriod
+
+
+
+
+> Example request:
+
+```bash
+curl -X POST \
+    "http://smallchops.test/api/report/fetchOrderPerPeriod" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/api/report/fetchOrderPerPeriod"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response => response.json());
+```
+
+
+<div id="execution-results-POSTapi-report-fetchOrderPerPeriod" hidden>
+    <blockquote>Received response<span id="execution-response-status-POSTapi-report-fetchOrderPerPeriod"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-report-fetchOrderPerPeriod"></code></pre>
+</div>
+<div id="execution-error-POSTapi-report-fetchOrderPerPeriod" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-report-fetchOrderPerPeriod"></code></pre>
+</div>
+<form id="form-POSTapi-report-fetchOrderPerPeriod" data-method="POST" data-path="api/report/fetchOrderPerPeriod" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('POSTapi-report-fetchOrderPerPeriod', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-POSTapi-report-fetchOrderPerPeriod" onclick="tryItOut('POSTapi-report-fetchOrderPerPeriod');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-POSTapi-report-fetchOrderPerPeriod" onclick="cancelTryOut('POSTapi-report-fetchOrderPerPeriod');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-POSTapi-report-fetchOrderPerPeriod" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-black">POST</small>
+ <b><code>api/report/fetchOrderPerPeriod</code></b>
+</p>
+</form>
+
+
+## route-list
+
+
+
+
+> Example request:
+
+```bash
+curl -X GET \
+    -G "http://smallchops.test/route-list" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json"
+```
+
+```javascript
+const url = new URL(
+    "http://smallchops.test/route-list"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+```
+
+
+> Example response (200):
+
+```json
+[
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/login",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@login"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/loginAdmin",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@loginAdmin"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/register",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@register"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/register-unknowing",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@registerUnknowing"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/reset-password\/{token}",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@confirmResetToken"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/reset-password",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@resetPassword"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/send-reset-token",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@sendResetToken"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/forgot-password",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@forgotPassword"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/change-password",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@changepassword"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/refresh-token",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@refreshToken"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/logout",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@logout"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/update-user",
+        "Action": "App\\Http\\Controllers\\Auth\\AuthController@updateUser"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/users",
+        "Action": "App\\Http\\Controllers\\User\\UserController@index"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/users\/{id}",
+        "Action": "App\\Http\\Controllers\\User\\UserController@show"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/users\/{id}\/orders",
+        "Action": "App\\Http\\Controllers\\User\\UserController@ordersByID"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/users\/orders",
+        "Action": "App\\Http\\Controllers\\User\\UserController@orders"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/users",
+        "Action": "App\\Http\\Controllers\\User\\UserController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/users\/updateAdmin",
+        "Action": "App\\Http\\Controllers\\User\\UserController@updateAdmin"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/users\/updatePassword",
+        "Action": "App\\Http\\Controllers\\User\\UserController@updatePassword"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/users\/{id}",
+        "Action": "App\\Http\\Controllers\\User\\UserController@update"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/users\/{id}",
+        "Action": "App\\Http\\Controllers\\User\\UserController@destroy"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/cash-request",
+        "Action": "App\\Http\\Controllers\\CashRequest\\CashRequestController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/cash-request",
+        "Action": "App\\Http\\Controllers\\CashRequest\\CashRequestController@index"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/cash-request\/{id}",
+        "Action": "App\\Http\\Controllers\\CashRequest\\CashRequestController@status"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/cash-request\/changeStatus",
+        "Action": "App\\Http\\Controllers\\CashRequest\\CashRequestController@changeStatus"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/locations",
+        "Action": "App\\Http\\Controllers\\Logistics\\LocationController@index"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/locations\/{id}",
+        "Action": "App\\Http\\Controllers\\Logistics\\LocationController@show"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/locations\/{id}\/order",
+        "Action": "App\\Http\\Controllers\\Logistics\\LocationController@orders"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/locations",
+        "Action": "App\\Http\\Controllers\\Logistics\\LocationController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/locations\/update",
+        "Action": "App\\Http\\Controllers\\Logistics\\LocationController@update"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/locations\/{id}",
+        "Action": "App\\Http\\Controllers\\Logistics\\LocationController@destroy"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/delivery-windows",
+        "Action": "App\\Http\\Controllers\\DeliveryWindowController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/delivery-windows\/all",
+        "Action": "App\\Http\\Controllers\\DeliveryWindowController@all"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/delivery-windows\/{id}",
+        "Action": "App\\Http\\Controllers\\DeliveryWindowController@update"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/delivery-windows\/{date?}",
+        "Action": "App\\Http\\Controllers\\DeliveryWindowController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/delivery-windows\/changeDeliveryWindowStatus",
+        "Action": "App\\Http\\Controllers\\DeliveryWindowController@changeDeliveryWindowStatus"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/delivery-windows\/regularDeliveryDate",
+        "Action": "App\\Http\\Controllers\\DeliveryWindowController@regularDeliveryDate"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/companies",
+        "Action": "App\\Http\\Controllers\\Logistics\\CompanyController@index"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/companies\/{id}",
+        "Action": "App\\Http\\Controllers\\Logistics\\CompanyController@show"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/companies\/{id}\/order",
+        "Action": "App\\Http\\Controllers\\Logistics\\CompanyController@orders"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/companies",
+        "Action": "App\\Http\\Controllers\\Logistics\\CompanyController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/companies\/update",
+        "Action": "App\\Http\\Controllers\\Logistics\\CompanyController@update"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/companies\/{id}",
+        "Action": "App\\Http\\Controllers\\Logistics\\CompanyController@destroy"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/packages",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@index"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/packages\/all",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@fetchAll"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/packages\/{id}",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@show"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/packages",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/packages\/uploadImage",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@uploadImage"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/packages\/updateStatus",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@updateStatus"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/packages\/{id}",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@update"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/packages\/{id}",
+        "Action": "App\\Http\\Controllers\\Packages\\PackageController@destroy"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/changeStatus",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@changeStatus"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders\/callbackPay4Me",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@callbackPay4Me"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/changeDayStatus",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@changeDayStatus"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/assignRider",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@assignRider"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/storeTrackedDate",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@storeTrackedDate"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/paystackWebhook",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@paystackWebhook"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders\/fetchPackageOrder",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@fetchPackageOrder"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders\/fetchDeliveryDays",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@fetchDeliveryDays"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/changePaymentStatus",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@changePaymentStatus"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@update"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/storePay4Me",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@storePay4Me"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@destroy"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/orders\/changeTrackedDateStatus",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@changeTrackedDateStatus"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@show"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders\/fetchTrackedDeliveryDates",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@fetchTrackedDeliveryDates"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/orders\/verifyPayments",
+        "Action": "App\\Http\\Controllers\\Order\\OrderController@verifyPayments"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/event-orders",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/event-orders",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/event-orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@show"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/event-orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@update"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/event-orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@destroy"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/event-orders\/changeStatus",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@changeStatus"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/event-orders\/assignRider",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@assignRider"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/event-orders\/changePaymentStatus",
+        "Action": "App\\Http\\Controllers\\Order\\EventOrderController@changePaymentStatus"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/corporate-orders",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/corporate-orders",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/corporate-orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@show"
+    },
+    {
+        "HTTP Method": "PUT",
+        "Route": "http:\/\/localhost\/api\/corporate-orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@update"
+    },
+    {
+        "HTTP Method": "DELETE",
+        "Route": "http:\/\/localhost\/api\/corporate-orders\/{id}",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@destroy"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/corporate-orders\/changeStatus",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@changeStatus"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/corporate-orders\/assignRider",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@assignRider"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/corporate-orders\/changePaymentStatus",
+        "Action": "App\\Http\\Controllers\\Order\\CorporateOrderController@changePaymentStatus"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/coupons",
+        "Action": "App\\Http\\Controllers\\Coupon\\CouponController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/coupons",
+        "Action": "App\\Http\\Controllers\\Coupon\\CouponController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/coupons\/generate-report",
+        "Action": "App\\Http\\Controllers\\Coupon\\CouponController@generateReport"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/coupons\/{code}",
+        "Action": "App\\Http\\Controllers\\Coupon\\CouponController@show"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/contacts",
+        "Action": "App\\Http\\Controllers\\ContactController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/contacts",
+        "Action": "App\\Http\\Controllers\\ContactController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/contacts\/{code}",
+        "Action": "App\\Http\\Controllers\\ContactController@show"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/bank-accounts",
+        "Action": "App\\Http\\Controllers\\Overview\\BankAccountController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/bank-accounts",
+        "Action": "App\\Http\\Controllers\\Overview\\BankAccountController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/bank-accounts\/update",
+        "Action": "App\\Http\\Controllers\\Overview\\BankAccountController@update"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/bank-accounts\/store",
+        "Action": "App\\Http\\Controllers\\Overview\\BankAccountController@store"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/bank-payments",
+        "Action": "App\\Http\\Controllers\\Overview\\BankPaymentController@index"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/bank-payments",
+        "Action": "App\\Http\\Controllers\\Overview\\BankPaymentController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/bank-payments\/update",
+        "Action": "App\\Http\\Controllers\\Overview\\BankPaymentController@update"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/bank-payments\/store",
+        "Action": "App\\Http\\Controllers\\Overview\\BankPaymentController@store"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/transactions\/monnify\/authenticate",
+        "Action": "App\\Http\\Controllers\\Transaction\\TransactionController@authenticateMonnify"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/transactions\/monnify",
+        "Action": "App\\Http\\Controllers\\Transaction\\TransactionController@fetchMonnify"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/transactions\/paystack",
+        "Action": "App\\Http\\Controllers\\Transaction\\TransactionController@fetchPaystack"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/report\/fetchAllTotals\/{startDate?}\/{endDate?}",
+        "Action": "App\\Http\\Controllers\\ReportController@allTotals"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/api\/report\/fetchPackageRevenue\/{startDate?}\/{endDate?}",
+        "Action": "App\\Http\\Controllers\\ReportController@allPackageRevenue"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/report\/fetchOrderRider",
+        "Action": "App\\Http\\Controllers\\ReportController@orderRider"
+    },
+    {
+        "HTTP Method": "POST",
+        "Route": "http:\/\/localhost\/api\/report\/fetchOrderPerPeriod",
+        "Action": "App\\Http\\Controllers\\ReportController@orderPerPeriod"
+    },
+    {
+        "HTTP Method": "GET",
+        "Route": "http:\/\/localhost\/route-list",
+        "Action": "Closure"
+    }
+]
+```
+<div id="execution-results-GETroute-list" hidden>
+    <blockquote>Received response<span id="execution-response-status-GETroute-list"></span>:</blockquote>
+    <pre class="json"><code id="execution-response-content-GETroute-list"></code></pre>
+</div>
+<div id="execution-error-GETroute-list" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETroute-list"></code></pre>
+</div>
+<form id="form-GETroute-list" data-method="GET" data-path="route-list" data-authed="0" data-hasfiles="0" data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}' onsubmit="event.preventDefault(); executeTryOut('GETroute-list', this);">
+<h3>
+    Request&nbsp;&nbsp;&nbsp;
+        <button type="button" style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-tryout-GETroute-list" onclick="tryItOut('GETroute-list');">Try it out ⚡</button>
+    <button type="button" style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-canceltryout-GETroute-list" onclick="cancelTryOut('GETroute-list');" hidden>Cancel</button>&nbsp;&nbsp;
+    <button type="submit" style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;" id="btn-executetryout-GETroute-list" hidden>Send Request 💥</button>
+    </h3>
+<p>
+<small class="badge badge-green">GET</small>
+ <b><code>route-list</code></b>
+</p>
+</form>
+
+
+
