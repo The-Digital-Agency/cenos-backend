@@ -67,5 +67,28 @@ class UserSeeder extends Seeder
             'location_id' => '1',
             'password' => Hash::make(';uche@smallchops2020'),
         ]);
+
+        User::create([
+            'name' => 'Michael',
+            'email' => 'emeka@smallchops.ng',
+            'role' => 'admin',
+            'admin_role' => 'super_admin',
+            'phone' => '08130630784',
+            'address' => '2nd Floor, 23 Jimoh Odutola St, Iganmu, Lagos',
+            'location_id' => '1',
+            'password' => Hash::make('loveth24'),
+        ]);
+
+        User::create([
+            'name' => 'Rebecca',
+            'email' => 'doyin.admin@come.com',
+            'role' => 'shop',
+            'admin_role' => 'shop',
+            'phone' => '09333333333',
+            'address' => '364, Borno Way, Yaba, Lagos',
+            'location_id' => '1',
+            'password' => Hash::make('loveth24'),
+        ]);
+
     }
 }

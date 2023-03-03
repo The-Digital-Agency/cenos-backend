@@ -141,6 +141,7 @@ Route::group(['middleware' => ['api', 'cors', 'status']], function () {
         Route::post('/payWithPaystack', 'OrderController@payWithPaystack');
         Route::post('/changeDayStatus', 'OrderController@changeDayStatus');
         Route::post('/assignRider', 'OrderController@assignRider');
+        Route::post('/requestRider', 'OrderController@requestRider');
         Route::post('/storeTrackedDate', 'OrderController@storeTrackedDate');
         Route::post('/paystackWebhook', 'OrderController@paystackWebhook');
         Route::get('/fetchPackageOrder', 'OrderController@fetchPackageOrder');

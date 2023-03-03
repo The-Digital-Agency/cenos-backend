@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
 use App\Vendor;
+use DB;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\ValidationException;
@@ -57,7 +58,7 @@ class OrderController extends Controller
             $orders->where('payment_status', request()->payment_status);
         }
 
-        $orders = $orders->orderBy('created_at', 'DESC')->paginate(20);
+        $orders = $orders->with('request_rider')->orderBy('created_at', 'DESC')->paginate(20);
 
         return response()->json($orders);
     }
@@ -106,6 +107,7 @@ class OrderController extends Controller
         // Set the invoice code
         $request->request->add(['invoice_code' => Carbon::now()->timestamp]);
         $request->request->add(['created_at' => Carbon::now()->timestamp]);
+        $request->request->add(['shop_id' => 1]);
         $order = Order::create($request->all());
 
         // Attach items IDs
@@ -318,6 +320,22 @@ class OrderController extends Controller
         $order->save();
 
         return response()->json($order, 202);
+    }
+
+    public function requestRider(Request $request)
+    {
+        $user_id = auth()->id();
+        $billing_total = $request->billingTotal;
+        $billing_type = $request->billingType;
+        $order_id = $request->orderID;
+        $request_rider = DB::table('request_rider')->insert([
+            'user_id' => $user_id,
+            'billing_total' => $billing_total,
+            'billing_type' => $billing_type,
+            'order_id' => $order_id
+        ]);
+        return response()->json($request_rider, 202);
+
     }
 
     public function fetchDeliveryDays()

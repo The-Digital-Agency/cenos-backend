@@ -73,6 +73,11 @@ class Order extends Model
         return $this->belongsTo('App\Company');
     }
 
+    public function request_rider() 
+    {
+        return $this->hasMany('App\RequestRider');
+    }
+
     public function order()
     {
         return $this->hasOne('App\Transaction');

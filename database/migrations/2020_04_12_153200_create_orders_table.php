@@ -41,7 +41,9 @@ class CreateOrdersTable extends Migration
             $table->string('delivery_window')->nullable();
             $table->string('delivery_option')->default('delivery');
             $table->text('items')->nullable();
-
+            $table->integer('item_count')->nullable();
+            $table->string('notes')->nullable();
+            $table->foreignId('shop_id')->references('id')->on('shops')->onDelete('cascade');
             $table->timestamps();
         });
     }
