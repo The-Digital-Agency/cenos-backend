@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f7e18808b5bfbf424ee6e797714906e",
+    "content-hash": "f8001e1222775d761f89bcb096efa303",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -274,6 +274,68 @@
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.1"
             },
             "time": "2021-08-13T13:06:58+00:00"
+        },
+        {
+            "name": "djunehor/laravel-sms",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/djunehor/laravel-sms.git",
+                "reference": "24fe1e06c012bf15b4ae687f2bd74c5484a3210a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/djunehor/laravel-sms/zipball/24fe1e06c012bf15b4ae687f2bd74c5484a3210a",
+                "reference": "24fe1e06c012bf15b4ae687f2bd74c5484a3210a",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": ">=6.5.x-dev",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": ">=3.5.x-dev",
+                "phpunit/phpunit": ">=6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Djunehor\\Sms\\SmsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/helpers.php"
+                ],
+                "psr-4": {
+                    "Djunehor\\Sms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zacchaeus Bolaji",
+                    "email": "djunehor@gmail.com"
+                }
+            ],
+            "description": "Send SMS from your laravel application",
+            "keywords": [
+                "djunehor",
+                "laravel",
+                "laravel-package",
+                "php",
+                "sms"
+            ],
+            "support": {
+                "issues": "https://github.com/djunehor/laravel-sms/issues",
+                "source": "https://github.com/djunehor/laravel-sms/tree/2.2.0"
+            },
+            "time": "2021-03-04T17:17:59+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -771,16 +833,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.4.1",
+            "version": "7.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79"
+                "reference": "e3ff079b22820c2029d4c2a87796b6a0b8716ad8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
-                "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e3ff079b22820c2029d4c2a87796b6a0b8716ad8",
+                "reference": "e3ff079b22820c2029d4c2a87796b6a0b8716ad8",
                 "shasum": ""
             },
             "require": {
@@ -813,12 +875,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -875,7 +937,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.4.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.4.4"
             },
             "funding": [
                 {
@@ -891,7 +953,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-06T18:43:05+00:00"
+            "time": "2022-06-09T21:39:15+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -11709,5 +11771,5 @@
         "php": "^7.3.0 | ^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Order;
 
+use App\Company;
 use App\Order;
 use App\Package;
 use App\OrderDay;
@@ -12,7 +13,9 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
+use App\Location;
 use App\Vendor;
+use Artisan;
 use DB;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
@@ -315,10 +318,13 @@ class OrderController extends Controller
     public function assignRider(Request $request)
     {
         $order = Order::find($request->orderID);
-        $order->logistics_id = $request->logisticsID;
-        $order->logistics = $request->logistics;
+        $order->logistics_id = $request->companyID;
+        $order->company_id = $request->companyID;
+        $order->logistics = ['company' => $request->companyID];
         $order->save();
 
+        // change the status of the other stuff 
+        $rr = DB::table('request_rider')->where('id', '=', $request->req)->update(['company_id' => $request->companyID, 'status' => 'assigned']);
         return response()->json($order, 202);
     }
 
@@ -328,13 +334,38 @@ class OrderController extends Controller
         $billing_total = $request->billingTotal;
         $billing_type = $request->billingType;
         $order_id = $request->orderID;
-        $request_rider = DB::table('request_rider')->insert([
+        $request_rider = DB::table('request_rider')->insertGetId([
             'user_id' => $user_id,
             'billing_total' => $billing_total,
             'billing_type' => $billing_type,
             'order_id' => $order_id
         ]);
+        Artisan::queue('rider:request', [
+            'order' => $order_id, '--queue' => 'default'
+        ]);
         return response()->json($request_rider, 202);
+
+    }
+
+    public function riderRequest(Request $request)
+    {
+        $rider_request = DB::table('request_rider')->where('id', $request[1])->first();
+        $order = Order::find($rider_request->order_id);
+        $vendor = Vendor::find($order->vendor_id);
+        $location = Location::find($order->location_id);
+        $company = Company::where('phone', $request[0])->first();
+        return response()->json(['request_id'=>$rider_request->id, 'delivery' => $location->delivery_location, 'pickup' => $vendor->address, 'company' => $company->id, 'order' => $order->id, 'status' => $rider_request->status], 202);
+        // $user_id = auth()->id();
+        // $billing_total = $request->billingTotal;
+        // $billing_type = $request->billingType;
+        // $order_id = $request->orderID;
+        // $request_rider = DB::table('request_rider')->insertGetId([
+        //     'user_id' => $user_id,
+        //     'billing_total' => $billing_total,
+        //     'billing_type' => $billing_type,
+        //     'order_id' => $order_id
+        // ]);
+        // return response()->json($request_rider, 202);
 
     }
 

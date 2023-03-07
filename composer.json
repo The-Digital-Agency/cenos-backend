@@ -11,9 +11,10 @@
     "require": {
         "php": "^7.3.0 | ^8.0",
         "coconutcraig/laravel-postmark": "^2.11",
+        "djunehor/laravel-sms": "^2.2",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
-        "guzzlehttp/guzzle": "^7.0.1",
+        "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",

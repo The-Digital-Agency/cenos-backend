@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         'App\Console\Commands\AutoProduceMail',
+        'App\Console\Commands\SendARiderRequest',
     ];
 
     /**
@@ -25,7 +26,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('auto:producemail')->everyMinute();
+        // $schedule->command('auto:producemail')->everyMinute();
         // $schedule->command('auto:producemail')->daily()->at('23:05');
         // $schedule->command('auto:producemail')->daily()->at('08:10');
     }
