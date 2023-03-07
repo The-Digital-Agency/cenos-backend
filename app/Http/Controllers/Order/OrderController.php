@@ -110,6 +110,7 @@ class OrderController extends Controller
         }
         // Set the invoice code
         $request->request->add(['invoice_code' => Carbon::now()->timestamp]);
+        $request->request->add(['vendor_id' => 1]);
         $request->request->add(['created_at' => Carbon::now()->timestamp]);
         $request->request->add(['shop_id' => 1]);
         $order = Order::create($request->all());
