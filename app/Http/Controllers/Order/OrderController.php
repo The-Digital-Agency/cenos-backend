@@ -351,8 +351,6 @@ class OrderController extends Controller
     public function riderRequest(Request $request)
     {
         $rider_request = DB::table('request_rider')->where('id', '=', $request[1])->first();
-        Log::info($rider_request);
-        Log::info($request[1]);
         $order = Order::find($rider_request->order_id);
         $vendor = Vendor::find($order->vendor_id);
         $location = Location::find($order->location_id);
