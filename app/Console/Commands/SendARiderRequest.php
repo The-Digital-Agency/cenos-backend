@@ -6,6 +6,7 @@ use App\Company;
 use App\Jobs\SendRiderRequest;
 use App\Location;
 use App\Order;
+use App\Vendor;
 use App\Zone;
 use DB;
 use Illuminate\Console\Command;
@@ -47,11 +48,12 @@ class SendARiderRequest extends Command
         $order = Order::find($this->argument('order'));
         $location = Location::find($order->location_id);
         $zone = Zone::find($location->zone_id);
+        $vendor = Vendor::find($order->vendor_id);
         $rider_request = DB::table('request_rider')->where('order_id', '=', $order->id)->first();
         $companies = Company::where('zone_one', $location->zone_id)->orWhere('zone_two', $location->zone_id)->get();
         if (!empty($companies)) {
             foreach ($companies as $company) {
-                SendRiderRequest::dispatch($rider_request->id, $company);
+                SendRiderRequest::dispatch($rider_request->id, $company, $order, $location, $vendor);
             }
         } else {
             Log::info('No rider in zone '.$zone->name);
